@@ -22,7 +22,7 @@
 		<module>flinkx-connector-stream</module>
 
 		<!--MQ-->
-		<module>flinkx-connector-kafka</module>
+<!--		<module>flinkx-connector-kafka</module>-->
 		<module>flinkx-connector-emqx</module>
 
 		<!--RDB-->
@@ -33,8 +33,8 @@
 		<module>flinkx-connector-db2</module>
 		<module>flinkx-connector-postgresql</module>
 		<module>flinkx-connector-gbase</module>
-		<module>flinkx-connector-kingbase</module>
-		<module>flinkx-connector-greenplum</module>
+<!--		<module>flinkx-connector-kingbase</module>-->
+<!--		<module>flinkx-connector-greenplum</module>-->
 		<module>flinkx-connector-dm</module>
 		<module>flinkx-connector-clickhouse</module>
 		<module>flinkx-connector-saphana</module>
@@ -66,10 +66,11 @@
 		<module>flinkx-connector-oraclelogminer</module>
 		<module>flinkx-connector-sqlservercdc</module>
 		<module>flinkx-connector-pgwal</module>
-
+		<module>flinkx-connector-oceanbase</module>
 		<!--Network-->
 		<module>flinkx-connector-http</module>
 		<module>flinkx-connector-socket</module>
+
 	</modules>
 
 

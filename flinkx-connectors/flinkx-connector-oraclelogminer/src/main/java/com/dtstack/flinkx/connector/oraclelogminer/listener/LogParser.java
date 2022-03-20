@@ -225,7 +225,7 @@ public class LogParser {
             return value.substring(15, value.length() - 2);
         }
 
-        // INTERVAL DAY(2) TO SECOND(6)
+        // INTERVAL DAY(2) TO SEC OND(6)
         if (value.startsWith("TO_DSINTERVAL('") && value.endsWith("')")) {
             return value.substring(15, value.length() - 2);
         }
